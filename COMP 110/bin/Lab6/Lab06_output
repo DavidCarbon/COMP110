@@ -1,0 +1,29 @@
+RESULTS FROM: KiloToPound.java
+
+Kilograms           Pounds              
+1                   2.20                
+3                   6.60                
+5                   11.00               
+7                   15.40               
+9                   19.80               
+11                  24.20               
+13                  28.60               
+15                  33.00               
+17                  37.40               
+19                  41.80               
+
+RESULTS FROM: Sum.java
+
+ 98
+ 73
+ 41
+ 88
+ 90
+ 72
+ 97
+ 71
+ 32
+ 14
+ 74
+The sum of odd is: 282
+The sum of even is: 468
