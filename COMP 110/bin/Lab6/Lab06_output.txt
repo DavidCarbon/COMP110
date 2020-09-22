@@ -1,3 +1,9 @@
+/*
+ File: Sum.java
+ Date: 9/17/2020
+ Author: David Landaverde
+ */
+
 RESULTS FROM: KiloToPound.java
 
 Kilograms           Pounds              
