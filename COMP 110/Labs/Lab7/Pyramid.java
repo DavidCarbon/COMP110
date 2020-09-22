@@ -4,35 +4,37 @@
  Author: David Landaverde
  */
 package Lab7;
-import java.util.*;
 
 public class Pyramid {
 
 	public static void main(String[] args) {
-		// Create a Scanner object
-		Scanner input = new Scanner(System.in);
+	    //Amount of Rows
+		int max = 8;
+		//Display Numbers in Rows with Correct Padding
+	    int padLength = (int) Math.ceil(Math.log10(Math.pow(2, max) + 1)) + 2;
+	    
+	    //Create Pyramid by Amount of Rows
+	    for (int i = 0; i < max; i++) {
+	        for (int j = 1; j < max - i; j++) {
+	            System.out.print(pad(" ", padLength));
+	        }
+	        for (int k = 0; k <= i; k++) {
+	            System.out.print(pad(Math.pow(2, k), padLength));
+	        }
+	        for (int k = i - 1; k >= 0; k--) {
+	            System.out.print(pad(Math.pow(2, k), padLength));
+	        }
+	        System.out.println();
+	    }
+	}
 
-		// Prompt the user to enter an integer from 1 to 15
-		System.out.print("Enter the number of lines: ");
-		int numberOfLines = input.nextInt();
+	//Display Pyramid
+	public static String pad(double d, int l) {
+	    Integer i = (int) d;
+	    return pad(i.toString(), l);
+	}
 
-		// Display pyramid
-		for (int rows = 1; rows <= numberOfLines; rows++) {
-			// Create spaces in each row
-			for (int s = numberOfLines - rows; s >= 1; s--) {
-				System.out.print("  ");
-			}
-			// Create decending numbers in each row
-			for (int l = rows; l >= 2; l--) {
-				System.out.print(l + " ");
-			}
-			// Create ascending number in each row
-			for (int r = 1; r <= rows; r++) {
-				System.out.print(r + " ");
-			}
-			// End line
-			System.out.println();
-		}
-		input.close();
+	public static String pad(String s, int l) {
+	    return String.format("%-" + l + "s", s);
 	}
 }
