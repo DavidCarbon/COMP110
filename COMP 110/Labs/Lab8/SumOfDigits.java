@@ -4,18 +4,14 @@
  Author: David Landaverde
  */
 package Lab8;
-import java.util.*;
 
 public class SumOfDigits {
     public static void main(String[] args){
-        Scanner in = new Scanner(System.in);
-        System.out.print("Please enter an integer to sum the digits of: ");
-        long value = in.nextLong();
-        System.out.println("The sum of all digits is: " + sumDigits(value));
-        in.close();
+    	System.out.println("Sum of digits of 1024 is " + sumDigits(1024));
+    	System.out.println("Sum of digits of 236 is " + sumDigits(236));
     }
-
-    public static int sumDigits(long n){
+    
+    public static int sumDigits(int n){
         int temp = (int)Math.abs(n);
         int sum = 0;
         

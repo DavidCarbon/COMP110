@@ -6,5 +6,8 @@
 
 RESULTS FROM: SumOfDigits.java
 
-Sum of digits of 1024 is 7
-Sum of digits of 236 is 11
+Square root of 12 is 3.0
+Square root of 4 is 2.0
+ 
+Enter a string for password: 22Debugging
+Valid password
