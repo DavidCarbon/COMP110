@@ -1,0 +1,22 @@
+/*
+ File: CheckPassword.java
+ Date: 10/10/2020
+ Author: David Landaverde
+ */
+
+RESULTS FROM: Grades.java
+
+<- Sample Run Confirmation (For Debugging) ->
+
+Enter the nubmer of students: 4
+Enter 4 scores: 40 55 70 58
+Student 0 score is 40 and grade is C
+Student 1 score is 55 and grade is B
+Student 2 score is 70 and grade is A
+Student 3 score is 58 and grade is B
+
+<- My Run ->
+Enter the nubmer of students: 2
+Enter 2 scores: 50 100
+Student 0 score is 50 and grade is F
+Student 1 score is 100 and grade is A 
