@@ -1,0 +1,19 @@
+/*
+ File: Count.java
+ Date: 10/13/2020
+ Author: David Landaverde
+ */
+
+RESULTS FROM: Grades.java
+
+Count for each number between 0 and 9:
+0s: 10
+1s: 8
+2s: 7
+3s: 18
+4s: 8
+5s: 10
+6s: 9
+7s: 12
+8s: 8
+9s: 10

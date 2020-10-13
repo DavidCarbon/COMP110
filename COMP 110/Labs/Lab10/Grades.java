@@ -1,5 +1,5 @@
 /*
- File: CheckPassword.java
+ File: Grades.java
  Date: 10/10/2020
  Author: David Landaverde
  */
