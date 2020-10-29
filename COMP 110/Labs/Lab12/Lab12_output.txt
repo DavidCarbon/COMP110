@@ -1,0 +1,72 @@
+/*
+ Date: 10/26/2020
+ Author: David Landaverde
+ */
+
+RESULTS FROM: HeadsTail.java
+
+Enter a number between 0 and 511: 6
+H H H 
+H H H 
+H T T 
+
+RESULTS FROM: TicTacToe.java
+
+-------------
+|   |   |   |
+-------------
+|   |   |   |
+-------------
+|   |   |   |
+-------------
+Enter a row(0, 1, or 2) for player  X : 1
+Enter a column(0, 1, or 2) for player  X : 1
+
+-------------
+|   |   |   |
+-------------
+|   | X |   |
+-------------
+|   |   |   |
+-------------
+Enter a row(0, 1, or 2) for player  O : 1
+Enter a column(0, 1, or 2) for player  O : 2
+
+-------------
+|   |   |   |
+-------------
+|   | X | O |
+-------------
+|   |   |   |
+-------------
+Enter a row(0, 1, or 2) for player  X : 0
+Enter a column(0, 1, or 2) for player  X : 0
+
+-------------
+| X |   |   |
+-------------
+|   | X | O |
+-------------
+|   |   |   |
+-------------
+Enter a row(0, 1, or 2) for player  O : 1
+Enter a column(0, 1, or 2) for player  O : 0
+
+-------------
+| X |   |   |
+-------------
+| O | X | O |
+-------------
+|   |   |   |
+-------------
+Enter a row(0, 1, or 2) for player  X : 2
+Enter a column(0, 1, or 2) for player  X : 2
+
+-------------
+| X |   |   |
+-------------
+| O | X | O |
+-------------
+|   |   | X |
+-------------
+ X player won
